@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "prachi": "",
+      "id": 1
+    },
+    {
+      "first_name": "Prachi",
+      "last_name": "Singh",
+      "email": "prachi@gmail.com",
+      "password": "Prachi",
+      "id": 2
+    },
+    {
+      "first_name": "Prachi",
+      "last_name": "Singh",
+      "email": "prachi@gmail.com",
+      "password": "Prachi",
+      "id": 3
+    }
+  ]
+}

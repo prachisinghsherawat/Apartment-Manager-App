@@ -1,38 +1,152 @@
-.App {
+#navbar{
+  background-color: rgb(9, 11, 51);
+}
+
+th,td,tr{
+  width: 15%;
+  padding: 7px 14px;
+}
+
+#imgBox{
+  width: 25%;
+  height : 200px;
+}
+
+#imgBox>img{
+  width: 78%;
+  height : 100%;
+}
+
+table{
+  margin: auto;
+  margin-top: 3%;
+  width: 100%;
+  font-size: 25px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#btnName{
+  font-size: 29px;
+  padding: 7px 14px;
+  border: none;
+  font-weight: bolder;
+  color: rgb(13, 95, 133);
+  background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#auth{
+  width: 15%;
+  margin-right: 4%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+#searchBar{
+  margin-right: 40%;
+}
+
+.form{
+  height: 680px;
+  width: 29%;
+  padding: 3%;
+  margin: auto;
+  margin-top: 4%;
+  font-size: 19px;
+  background-color: rgb(176, 191, 196);
+}
+
+.form2{
+  height: 680px;
+  width: 29%;
+  padding: 3%;
+  margin: auto;
+  margin-top: 4%;
+  font-size: 19px;
+  background-color: rgb(165, 197, 159);
+  
+}
+
+#submitBtn{
+  background-color: rgb(4, 4, 41);
+  border: none;
+  font-size: 18px;
+  padding: 6px 18px;
+  color: aliceblue;
+}
+
+#atag{
+  text-decoration: none;
+  color: rgb(250, 249, 248);
+}
+
+.loginImg{
+  height:680px;
+  margin-top: -4%;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9e0b8430767291.5631d128aa375.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.signImg{
+  height:680px;
+  margin-top: -4%;
+  background-image: url("https://g5-assets-cld-res.cloudinary.com/image/upload/x_0,y_165,h_2640,w_4400,c_crop/q_auto,f_auto,c_fill,g_center,h_1200,w_2000/v1547060730/g5/g5-c-5g13txeqo-mark-taylor-companies-client/g5-cl-1ilppjz7kx-aviva/uploads/18-037-24_Fire_Pit_Area_efyaf4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main{
+  display: flex;
+}
+
+.left{
+  width: 24%;
+  padding: 18px 28px;
+  height: 630px;
+  margin-left: 4%;
+  margin-top: 3%;
+  font-size: 20px;
+  background-color: rgb(246, 250, 224);
+  border: 2px solid rgb(11, 27, 54);
+}
+
+.right{
+  width: 70%;
+}
+
+#demo-radio-buttons-group-label{
+  margin-top: 8%;
+  font-size: 26px;
+  font-weight: bolder;
+  color: rgb(7, 36, 70);
+}
+
+#pagination{
+  height: 70px;
+  width: 50%;
+  margin:auto;
+} 
+
+#pagebtn{
+  font-size: 25px;
+  padding: 1% 8%;
   color: white;
+  background-color: rgb(1, 12, 39);
+  
 }
 
-.App-link {
-  color: #61dafb;
+#mainImg{
+  width: 35%;
+  height: 400px;
+  margin-left: 33%;
+  margin-top: 3%;
+  margin-bottom:2% ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#pro{
+  text-align: center;
+  color: rgb(2, 2, 34);
+  font-weight: bolder;
+  font-size: 37px;
 }
